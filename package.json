@@ -1,0 +1,30 @@
+{
+  "name": "node-move-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Do4Net/node-move-file.git"
+  },
+  "keywords": [
+    "file opration file"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Do4Net/node-move-file/issues"
+  },
+  "homepage": "https://github.com/Do4Net/node-move-file#readme",
+  "dependencies": {
+    "commander": "^2.3.0", 
+    "uglify-js": "^2.4.20",
+    "colors": "^1.0.3"
+  },
+  "bin": {
+    "fmv": "bin/mv-cli.js"
+  }
+}
