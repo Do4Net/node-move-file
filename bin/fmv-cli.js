@@ -10,7 +10,7 @@ var program = require('commander'),
 	program
 	.command('mv <spath> <tpath>')
 	.description(' spath:original path;  tpath:target path')
-	.action(function(path){ 
+	.action(function(spath,tpath){ 
 		require("../index.js")(spath,tpath);
 	});
 	program.parse(process.argv);
