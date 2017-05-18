@@ -5,11 +5,11 @@ var program = require('commander'),
 
 	program
 	.version(package.version)
-	.option("--mv", "Move files to the destination folder");
+	.option("--fmv", "Move files to the destination folder");
 
 	program
-	.command('mv <spath> <tpath>')
-	.description(' spath:original path;  tpath:target path')
+	.command('fmv <spath> <tpath>')
+	.description('spath:original path;  tpath:target path')
 	.action(function(spath,tpath){ 
 		require("../index.js")(spath,tpath);
 	});
